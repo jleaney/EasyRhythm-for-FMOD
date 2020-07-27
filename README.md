@@ -2,6 +2,9 @@
 
 EasyRhythm for FMOD is a solution to get you started on triggering Unity behaviour from FMOD events, particularly useful for games that have rhythmic elements or mechanics.
 
+
+<img src="https://i.imgur.com/AoElAn7.gif" width="541.5" height="301.5" />
+
 It includes two main features that will quickly allow you to get started without having to know how to code FMOD callbacks.
 
 1. Triggering Behaviour based on the beat
