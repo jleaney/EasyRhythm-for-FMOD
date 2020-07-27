@@ -37,13 +37,13 @@ Quick Tip: We recommend setting your audio to not be streaming, as streaming som
 
 4. Add the interface 'IEasyListener' to that class and implement the OnBeat method:
 
-public class ExampleClass : MonoBehaviour, IEasyListener
+<pre><code>public class ExampleClass : MonoBehaviour, IEasyListener
 {
 	public void OnBeat(EasyEvent audioEvent) 
 	{ 
 		// Do Something 
 	}
-}
+}</pre></code>
 
 Fill the body with whatever behaviour you want to happen every beat!
 
@@ -64,13 +64,13 @@ To do this, lock the inspector with the Audio Manager, and att a new inspector w
 
 FMOD Destination marker: "Foo"
 
-public class ExampleClass : MonoBehaviour, IEasyListener
+<pre><code>public class ExampleClass : MonoBehaviour, IEasyListener
 {
 	public void Foo(EasyEvent audioEvent)
 	{
 		// Do something
 	}
-}
+}</pre></code>
 
 3. Fill the body with whatever behaviour you want to happen every beat!
 
@@ -82,7 +82,7 @@ In both the OnBeat() method and custom methods based on markers, you have access
 
 With this, we've included some basic but useful info you can retrieve from the FMOD event:
 
-public class ExampleClass : MonoBehaviour, IEasyListener
+<pre><code>public class ExampleClass : MonoBehaviour, IEasyListener
 {
 	public void OnBeat(EasyEvent audioEvent) 
 	{ 
@@ -99,7 +99,7 @@ public class ExampleClass : MonoBehaviour, IEasyListener
 		audioEvent.TimeSigAsString(); // Return the current time signature as a string - eg. "4/4"
 		audioEvent.BeatLength(); // Returns the length of a beat at the current tempo as a float, in seconds
 	}
-}
+}</pre></code>
 
 You could use this info to:
 - Trigger behvariour only on beats 1 and 3 of a bar
