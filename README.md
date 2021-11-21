@@ -105,7 +105,7 @@ With this, we've included some basic but useful info you can retrieve from the F
 }</pre></code>
 
 You could use this info to:
-- Trigger behvariour only on beats 1 and 3 of a bar
+- Trigger behaviour only on beats 1 and 3 of a bar
 - Trigger behaviour only on every 8th beat (by implementing your own counter)
 - Start listening to the beat only after a certain amount of time has passed
 - If using multiple of the same marker, check exactly which marker was just passed (useful for debugging)
