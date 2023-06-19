@@ -20,7 +20,7 @@ This could be useful for:
 - Triggering behaviour periodically in a track, rather than on every beat/bar
 - Triggering behaviour at a specific point in the track, for example at the chorus
 - Triggering behaviour from an audio event that doesn't conform to a strict tempo - eg. a classical piece of music
-- Triggering behaviour from sound FX - eg.you could sync an explosion's visuals to the audio instead of the other way around
+- Triggering behaviour from sound FX - e.g. you could sync particle fx of an explosion to the audio, instead of the other way around
 
 # Getting Started
 
